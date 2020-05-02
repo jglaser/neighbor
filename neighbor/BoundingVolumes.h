@@ -37,7 +37,7 @@ namespace neighbor
 struct BoundingBox
     {
     //! Default constructor
-    BoundingBox() {}
+    HOSTDEVICE BoundingBox() {}
 
     //! Single-precision constructor
     /*!
